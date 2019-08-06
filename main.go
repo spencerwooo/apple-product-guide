@@ -5,6 +5,7 @@ import (
 )
 
 const iammain string = "[Main]"
+const port string = "8000"
 
 func main() {
 	fmt.Printf("%s Starting crawler...\n", iammain)
@@ -17,4 +18,7 @@ func main() {
 	parseResponse(doc)
 
 	fmt.Printf("%s Latest data updated.\n", iammain)
+
+	fmt.Printf("%s Starting server on %s...\n", iammain, "localhost:"+port)
+	serve()
 }
