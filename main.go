@@ -7,9 +7,11 @@ import (
 func main() {
 	fmt.Println("Starting crawler...")
 
-	url := "https://buyersguide.macrumors.com/#iOS"
+	url := "https://buyersguide.macrumors.com"
 	fmt.Println("Crawling:", url)
 
-	var data = fetchURL(url)
-	parseResponse(data)
+	// Get dom elements from url
+	var doc = fetchURL(url)
+	// Parse dom elements with goquery
+	parseResponse(doc)
 }
