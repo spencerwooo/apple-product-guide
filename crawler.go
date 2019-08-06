@@ -58,6 +58,11 @@ func parseDOM(doc *goquery.Document, element string, productList map[string]map[
 		productInfo["daysSinceLastRelease"] = daysSinceLastRelease
 		productInfo["average"] = average
 
+		image, exists := product.Find("img").First().Attr("src")
+		if exists {
+			productInfo["image"] = image
+		}
+
 		// fmt.Println(productInfo)
 		productList[name] = productInfo
 	})
