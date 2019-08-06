@@ -1,0 +1,135 @@
+{
+  "11\" iPad Pro": {
+    "advice": "Neutral",
+    "average": "476",
+    "daysSinceLastRelease": "280",
+    "releaseDate": "Oct 2018",
+    "status": "Mid-product Cycle"
+  },
+  "12.9\" iPad Pro": {
+    "advice": "Neutral",
+    "average": "542",
+    "daysSinceLastRelease": "280",
+    "releaseDate": "Oct 2018",
+    "status": "Mid-product Cycle"
+  },
+  "AirPods": {
+    "advice": "Buy Now",
+    "average": "827",
+    "daysSinceLastRelease": "139",
+    "releaseDate": "Mar 2019",
+    "status": "Just Updated"
+  },
+  "Apple TV": {
+    "advice": "Don't Buy",
+    "average": "589",
+    "daysSinceLastRelease": "690",
+    "releaseDate": "Sep 2017",
+    "status": "Updates Soon"
+  },
+  "Apple Watch": {
+    "advice": "Caution",
+    "average": "418",
+    "daysSinceLastRelease": "326",
+    "releaseDate": "Sep 2018",
+    "status": "Approaching End of Cycle"
+  },
+  "HomePod": {
+    "advice": "Neutral",
+    "average": "",
+    "daysSinceLastRelease": "557",
+    "releaseDate": "Jan 2018",
+    "status": "Mid-product Cycle"
+  },
+  "Mac Mini": {
+    "advice": "Neutral",
+    "average": "588",
+    "daysSinceLastRelease": "280",
+    "releaseDate": "Oct 2018",
+    "status": "Mid-product Cycle"
+  },
+  "Mac Pro": {
+    "advice": "Don't Buy",
+    "average": "449",
+    "daysSinceLastRelease": "2056",
+    "releaseDate": "Dec 2013",
+    "status": "Fall 2019 Update"
+  },
+  "MacBook": {
+    "advice": "Don't Buy",
+    "average": "394",
+    "daysSinceLastRelease": "792",
+    "releaseDate": "Jun 2017",
+    "status": "Discontinued"
+  },
+  "MacBook Air": {
+    "advice": "Buy Now",
+    "average": "431",
+    "daysSinceLastRelease": "28",
+    "releaseDate": "Jul 2019",
+    "status": "Just Updated"
+  },
+  "MacBook Pro": {
+    "advice": "Buy Now",
+    "average": "301",
+    "daysSinceLastRelease": "28",
+    "releaseDate": "Jul 2019",
+    "status": "Just Updated"
+  },
+  "iMac": {
+    "advice": "Neutral",
+    "average": "383",
+    "daysSinceLastRelease": "140",
+    "releaseDate": "Mar 2019",
+    "status": "Mid-product Cycle"
+  },
+  "iMac Pro": {
+    "advice": "Neutral",
+    "average": "",
+    "daysSinceLastRelease": "600",
+    "releaseDate": "Dec 2017",
+    "status": "Mid-product Cycle"
+  },
+  "iPad": {
+    "advice": "Don't Buy",
+    "average": "583",
+    "daysSinceLastRelease": "497",
+    "releaseDate": "Mar 2018",
+    "status": "Updates Soon"
+  },
+  "iPad Air": {
+    "advice": "Buy Now",
+    "average": "654",
+    "daysSinceLastRelease": "141",
+    "releaseDate": "Mar 2019",
+    "status": "Just Updated"
+  },
+  "iPad Mini": {
+    "advice": "Neutral",
+    "average": "390",
+    "daysSinceLastRelease": "141",
+    "releaseDate": "Mar 2019",
+    "status": "Mid-product Cycle"
+  },
+  "iPhone XR": {
+    "advice": "Caution",
+    "average": "370",
+    "daysSinceLastRelease": "291",
+    "releaseDate": "Oct 2018",
+    "status": "Approaching End of Cycle"
+  },
+  "iPhone XS": {
+    "advice": "Don't Buy",
+    "average": "322",
+    "daysSinceLastRelease": "326",
+    "releaseDate": "Sep 2018",
+    "status": "Updates Soon"
+  },
+  "iPod Touch": {
+    "advice": "Buy Now",
+    "average": "404",
+    "daysSinceLastRelease": "70",
+    "releaseDate": "May 2019",
+    "status": "Just Updated"
+  }
+}

@@ -4,14 +4,17 @@ import (
 	"fmt"
 )
 
+const iammain string = "[Main]"
+
 func main() {
-	fmt.Println("Starting crawler...")
+	fmt.Printf("%s Starting crawler...\n", iammain)
 
 	url := "https://buyersguide.macrumors.com"
-	fmt.Println("Crawling:", url)
 
 	// Get dom elements from url
 	var doc = fetchURL(url)
 	// Parse dom elements with goquery
 	parseResponse(doc)
+
+	fmt.Printf("%s Latest data updated.\n", iammain)
 }
