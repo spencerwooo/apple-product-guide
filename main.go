@@ -2,15 +2,23 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/robfig/cron"
 )
 
 const iammain string = "[Main]"
-const port string = "8000"
+
+// Read $PORT from Heroku app
+var port = os.Getenv("PORT")
 
 func main() {
 	initUpdateTask()
+
+	// Development environment port bindings
+	if port == "" {
+		port = "8000"
+	}
 
 	fmt.Printf("%s Starting server on %s...\n", iammain, "localhost:"+port)
 	serve()
