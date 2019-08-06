@@ -1,6 +1,15 @@
-hash: 7b39844059dfcd0e5a2bc6a6632d3b49eb93828edb6874bfa9309115967456c5
-updated: 2019-08-06T15:18:39.986786+08:00
+hash: f827dcbf3111f836f706a682bfab68e0a8117c6cac50ec1c6a3291931693ebc1
+updated: 2019-08-06T22:06:36.073407+08:00
 imports:
+- name: github.com/andybalholm/cascadia
+  version: 680b6a57bda4f657485ad44bdea42342ead737bc
+- name: github.com/gorilla/mux
+  version: 00bdffe0f3c77e27d2cf6f5c70232a2d3e4d9c15
 - name: github.com/PuerkitoBio/goquery
   version: 2d2796f41742ece03e8086188fa4db16a3a0b458
+- name: golang.org/x/net
+  version: ca1201d0de80cfde86cb01aea620983605dfe99b
+  subpackages:
+  - html
+  - html/atom
 testImports: []
