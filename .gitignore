@@ -13,3 +13,6 @@
 
 # macOS Files
 .DS_Store
+
+# Glide vendor
+vendor/
