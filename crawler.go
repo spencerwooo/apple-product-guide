@@ -12,6 +12,7 @@ import (
 )
 
 const iamcrawler string = "<Crawler>"
+const filePath = "data.json"
 
 func fetchURL(url string) *goquery.Document {
 	fmt.Printf("%s Crawling: %s\n", iamcrawler, url)
@@ -23,7 +24,7 @@ func fetchURL(url string) *goquery.Document {
 
 	defer res.Body.Close()
 	if res.StatusCode != 200 {
-		log.Fatalf("status code error: %d %s", res.StatusCode, res.Status)
+		log.Fatalf("%s Status code error: %d %s\n", iamcrawler, res.StatusCode, res.Status)
 	}
 
 	doc, err := goquery.NewDocumentFromReader(res.Body)
@@ -51,7 +52,7 @@ func parseDOM(doc *goquery.Document, element string, productList map[string]map[
 		// 390
 		average := strings.TrimSpace(product.Find(".right.average").Text())
 
-		// productInfo["name"] = name
+		productInfo["name"] = name
 		productInfo["advice"] = advice
 		productInfo["status"] = status
 		productInfo["releaseDate"] = releaseDate
@@ -87,7 +88,6 @@ func parseResponse(doc *goquery.Document) {
 		log.Fatal(err)
 	}
 
-	filePath := "data.json"
 	err = ioutil.WriteFile(filePath, productsJSON, 0644)
 	if err != nil {
 		log.Fatal((err))
