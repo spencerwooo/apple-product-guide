@@ -22,7 +22,7 @@
 https://apguide.herokuapp.com/api
 ```
 
-![](https://i.loli.net/2019/08/06/dZAlMJHnuEjx3vL.png)
+![](https://i.loli.net/2019/08/07/h6EguBqXDIGay5Z.png)
 
 <details>
 
@@ -60,9 +60,9 @@ https://apguide.herokuapp.com/api
 https://apguide.herokuapp.com/api/12.9\"\ iPad\ Pro
 ```
 
-![](https://i.loli.net/2019/08/06/X2QK8sNI9tMjx6H.png)
+![](https://i.loli.net/2019/08/07/I8lMbKHiSG7vydJ.png)
 
-```json
+```jsonc
 {
     "advice": "Neutral",              // 购买建议
     "average": "542",                 // 平均更新时间（天）
