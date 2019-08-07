@@ -1,12 +1,16 @@
 <div align="center">
 
+<img src="https://i.loli.net/2019/08/07/Kudc3DxaIQ9E8Sj.png" width="160px" alt="icon" />
+
 <h1> 🧧 Apple Product Guide </h1>
 
 [![](https://flat.badgen.net/badge/icon/Product%20Guide?icon=apple&label=Apple)](https://buyersguide.macrumors.com)
 [![](https://flat.badgen.net/badge/icon/Heroku?icon=https://simpleicons.now.sh/heroku/fff&label=Deployed%20to&color=795A9D)](https://www.heroku.com/)
 [![](https://flat.badgen.net/badge/Lists/iPhone,Mac,Others?list=|&color=red)](https://apguide.herokuapp.com/api)
 
-**Apple 产品购买指南 API。数据来自：Buyer's Guide by MacRumors. 请勿将此 API 用于商业用途，详见：[🧸 免责 Disclaimer](#🧸-免责-Disclaimer).**
+**Apple 产品购买指南 API。数据来自：Buyer's Guide by MacRumors.**
+
+**请勿将此 API 用于商业用途。详见：[🧸 免责 Disclaimer](#-免责-disclaimer).**
 
 </div>
 
@@ -105,9 +109,13 @@ export PORT=9000
 
 ## 🧸 免责 Disclaimer
 
-本 API 与 MacRumors 无关，属于个人开发者（我）凭兴趣开发。本 API 仅供学习使用，请勿用于商业用途。
+本 API 与 MacRumors 无关，属于个人开发者（我）凭兴趣开发。
 
-The "Apple Product Guide" API is not affiliated with MacRumors in any way. The "Apple Product Guide" API is made for personal use and for personal use only.
+本 API 仅供学习使用，请勿用于商业用途。
+
+The "Apple Product Guide" API is not affiliated with MacRumors in any way.
+
+The "Apple Product Guide" API is made for personal use and for personal use only.
 
 ---
 
