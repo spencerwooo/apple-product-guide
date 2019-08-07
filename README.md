@@ -1,8 +1,16 @@
-# 🧧 Apple Product Guide
+<div align="center">
 
-> Apple 产品购买指南。数据来自：Buyer's Guide by MacRumors.
+<h1> 🧧 Apple Product Guide </h1>
 
-## API
+[![](https://flat.badgen.net/badge/icon/Product%20Guide?icon=apple&label=Apple)](https://buyersguide.macrumors.com)
+[![](https://flat.badgen.net/badge/icon/Heroku?icon=https://simpleicons.now.sh/heroku/fff&label=Deployed%20to&color=795A9D)](https://www.heroku.com/)
+[![](https://flat.badgen.net/badge/Lists/iPhone,Mac,Others?list=|&color=red)](https://apguide.herokuapp.com/api)
+
+**Apple 产品购买指南 API。数据来自：Buyer's Guide by MacRumors. 请勿将此 API 用于商业用途，详见：[🧸 免责 Disclaimer](#🧸-免责-Disclaimer).**
+
+</div>
+
+## 🧬 API
 
 ### 获取产品列表 `/api`
 
@@ -62,7 +70,7 @@ https://apguide.herokuapp.com/api/12.9\"\ iPad\ Pro
 }
 ```
 
-## 部署
+## 📦 部署
 
 - 安装 [Glide](https://github.com/Masterminds/glide) —— Package Management for Golang
 - 安装依赖：
@@ -89,11 +97,17 @@ export PORT=9000
 ./apple-product-guide
 ```
 
-## 原理
+## 🧮 原理
 
 在 `main.go` 中设置了 CRON 任务，`crawler.go` 每小时会自动执行，抓取来自 Buyer's Guide by MacRumors 最新的数据，并以 JSON 的形式存储于 `data.json`。
 
 在 `main.go` 中同时会启动 `server.go` 服务器进程，每次请求读取 `data.json`，并返回响应的数据。
+
+## 🧸 免责 Disclaimer
+
+本 API 与 MacRumors 无关，属于个人开发者（我）凭兴趣开发。本 API 仅供学习使用，请勿用于商业用途。
+
+The "Apple Product Guide" API is not affiliated with MacRumors in any way. The "Apple Product Guide" API is made for personal use and for personal use only.
 
 ---
 
