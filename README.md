@@ -22,9 +22,7 @@
 https://apguide.herokuapp.com/api
 ```
 
-![](https://i.loli.net/2019/08/07/h6EguBqXDIGay5Z.png)
-
-<details>
+![](https://i.loli.net/2019/08/13/UqawjJPNXiBeYOo.png)
 
 ```json
 [
@@ -50,8 +48,6 @@ https://apguide.herokuapp.com/api
 ]
 ```
 
-</details>
-
 ### 获取指定产品详情 `/api/{product}`
 
 > 以 12.9" iPad Pro 为例
@@ -60,7 +56,7 @@ https://apguide.herokuapp.com/api
 https://apguide.herokuapp.com/api/12.9\"\ iPad\ Pro
 ```
 
-![](https://i.loli.net/2019/08/07/I8lMbKHiSG7vydJ.png)
+![](https://i.loli.net/2019/08/13/ePmYpzj8bgS716J.png)
 
 ```jsonc
 {
