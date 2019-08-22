@@ -98,7 +98,7 @@ export PORT=9000
 ./apple-product-guide
 ```
 
-## 🧮 Principles
+## 🧮 How is this done?
 
 `main.go` defines a CRON task, which will execute `crawler.go` once every hour. `crawler.go` will automatically fetch the latest data from MacRumors' website, and store the data locally in JSON format.
 
