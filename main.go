@@ -3,25 +3,32 @@ package main
 import (
 	"fmt"
 	"os"
+	"apple-product-guide/utils"
 
 	"github.com/robfig/cron"
 )
 
 const iammain string = "[Main]"
 
-// Read $PORT from Heroku app
-var port = os.Getenv("PORT")
+// Port Read from Heroku app
+var Port = os.Getenv("PORT")
 
 func main() {
-	initUpdateTask()
-
 	// Development environment port bindings
-	if port == "" {
-		port = "8000"
+	if Port == "" {
+		Port = "8000"
 	}
 
-	fmt.Printf("%s Starting server on %s...\n", iammain, "localhost:"+port)
-	serve()
+	// Set $PORT
+	utils.Port = Port
+
+	// Update data on first launch
+	updateData()
+	// Set up cron job to update data every hour
+	initUpdateTask()
+
+	fmt.Printf("%s Server starting on %s...\n", iammain, Port)
+	utils.Serve()
 }
 
 func initUpdateTask() {
@@ -37,9 +44,9 @@ func updateData() {
 	url := "https://buyersguide.macrumors.com"
 
 	// Get dom elements from url
-	var doc = fetchURL(url)
+	var doc = utils.FetchURL(url)
 	// Parse dom elements with goquery
-	parseResponse(doc)
+	utils.ParseResponse(doc)
 
 	fmt.Printf("%s Latest data updated.\n", iammain)
 }

@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"encoding/json"
@@ -11,10 +11,11 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-const iamcrawler string = "<Crawler>"
+const iamcrawler string = "[Crawler]"
 const filePath = "data.json"
 
-func fetchURL(url string) *goquery.Document {
+// FetchURL crawls webpage
+func FetchURL(url string) *goquery.Document {
 	fmt.Printf("%s Crawling: %s\n", iamcrawler, url)
 
 	res, err := http.Get(url)
@@ -71,7 +72,8 @@ func parseDOM(doc *goquery.Document, element string, productList map[string]map[
 	return productList
 }
 
-func parseResponse(doc *goquery.Document) {
+// ParseResponse parses response sent from the webpage
+func ParseResponse(doc *goquery.Document) {
 	products := make(map[string]map[string]string)
 
 	// iOS lineups

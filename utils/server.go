@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"encoding/json"
@@ -11,16 +11,20 @@ import (
 	"github.com/gorilla/mux"
 )
 
-const iamserver = "<Server>"
+const iamserver = "[Server]"
 
-func serve() {
+// Port Global $PORT variable
+var Port string
+
+// Serve serves API
+func Serve() {
 	r := mux.NewRouter()
 	r.HandleFunc("/api", productListHandler)
 	r.HandleFunc("/api/{product}", productDetailHandler)
 	http.Handle("/", r)
 
-	fmt.Printf("%s Server listening on port %s.\n", iamserver, port)
-	log.Fatal(http.ListenAndServe(":"+port, nil))
+	fmt.Printf("%s Server listening on port %s.\n", iamserver, Port)
+	log.Fatal(http.ListenAndServe(":"+Port, nil))
 }
 
 func getData() map[string]map[string]string {

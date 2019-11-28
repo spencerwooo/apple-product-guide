@@ -1,173 +1,173 @@
 {
   "11\" iPad Pro": {
-    "advice": "Neutral",
+    "advice": "Caution",
     "average": "476",
-    "daysSinceLastRelease": "280",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_pro_11_246.jpg",
+    "daysSinceLastRelease": "394",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_pro_11_246_trans.png",
     "name": "11\" iPad Pro",
     "releaseDate": "Oct 2018",
-    "status": "Mid-product Cycle"
+    "status": "Approaching End of Cycle"
   },
   "12.9\" iPad Pro": {
-    "advice": "Neutral",
+    "advice": "Caution",
     "average": "542",
-    "daysSinceLastRelease": "280",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_pro_12_9_335.jpg",
+    "daysSinceLastRelease": "394",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_pro_12_9_335_trans.png",
     "name": "12.9\" iPad Pro",
     "releaseDate": "Oct 2018",
-    "status": "Mid-product Cycle"
+    "status": "Approaching End of Cycle"
   },
   "AirPods": {
     "advice": "Buy Now",
     "average": "827",
-    "daysSinceLastRelease": "139",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/airpods_300.jpg",
+    "daysSinceLastRelease": "253",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/airpods_300_trans.png",
     "name": "AirPods",
     "releaseDate": "Mar 2019",
+    "status": "Just Updated"
+  },
+  "AirPods Pro": {
+    "advice": "Buy Now",
+    "average": "",
+    "daysSinceLastRelease": "31",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/airpodspro-480_trans.png",
+    "name": "AirPods Pro",
+    "releaseDate": "Oct 2019",
     "status": "Just Updated"
   },
   "Apple TV": {
     "advice": "Don't Buy",
     "average": "589",
-    "daysSinceLastRelease": "690",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/atv-2015-2.png",
+    "daysSinceLastRelease": "804",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/atv-2015-2_trans.png",
     "name": "Apple TV",
     "releaseDate": "Sep 2017",
     "status": "Updates Soon"
   },
   "Apple Watch": {
-    "advice": "Caution",
-    "average": "418",
-    "daysSinceLastRelease": "326",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/watch_series_4_large_2x.png",
+    "advice": "Buy Now",
+    "average": "404",
+    "daysSinceLastRelease": "79",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/watch_series_5_300_trans.png",
     "name": "Apple Watch",
-    "releaseDate": "Sep 2018",
-    "status": "Approaching End of Cycle"
+    "releaseDate": "Sep 2019",
+    "status": "Just Updated"
   },
   "HomePod": {
     "advice": "Neutral",
     "average": "",
-    "daysSinceLastRelease": "557",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/homepod_space_gray_300.jpg",
+    "daysSinceLastRelease": "671",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/homepod_space_gray_300_trans.png",
     "name": "HomePod",
     "releaseDate": "Jan 2018",
     "status": "Mid-product Cycle"
   },
   "Mac Mini": {
-    "advice": "Neutral",
+    "advice": "Caution",
     "average": "588",
-    "daysSinceLastRelease": "280",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/mac_mini_300.jpg",
+    "daysSinceLastRelease": "394",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/mac_mini_300_trans.png",
     "name": "Mac Mini",
     "releaseDate": "Oct 2018",
-    "status": "Mid-product Cycle"
+    "status": "Approaching End of Cycle"
   },
   "Mac Pro": {
     "advice": "Don't Buy",
     "average": "449",
-    "daysSinceLastRelease": "2056",
+    "daysSinceLastRelease": "2170",
     "image": "https://cdn.macrumors.com/images-new/buyers-products/mac_pro_large.png",
     "name": "Mac Pro",
     "releaseDate": "Dec 2013",
     "status": "Fall 2019 Update"
   },
-  "MacBook": {
-    "advice": "Don't Buy",
-    "average": "394",
-    "daysSinceLastRelease": "792",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/macbook_403.jpg",
-    "name": "MacBook",
-    "releaseDate": "Jun 2017",
-    "status": "Discontinued"
-  },
   "MacBook Air": {
     "advice": "Buy Now",
     "average": "431",
-    "daysSinceLastRelease": "28",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/macbook_air_469.jpg",
+    "daysSinceLastRelease": "142",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/macbook_air_469_trans.png",
     "name": "MacBook Air",
     "releaseDate": "Jul 2019",
     "status": "Just Updated"
   },
   "MacBook Pro": {
     "advice": "Buy Now",
-    "average": "301",
-    "daysSinceLastRelease": "28",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_macbook_pro_touchbar_15_large_2x.png",
+    "average": "322",
+    "daysSinceLastRelease": "15",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_macbook_pro_touchbar_15_large_2x_trans.png",
     "name": "MacBook Pro",
-    "releaseDate": "Jul 2019",
+    "releaseDate": "Nov 2019",
     "status": "Just Updated"
   },
   "iMac": {
-    "advice": "Neutral",
+    "advice": "Caution",
     "average": "383",
-    "daysSinceLastRelease": "140",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_imac_retina_27_large_2x.png",
+    "daysSinceLastRelease": "254",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_imac_retina_27_large_2x_trans.png",
     "name": "iMac",
     "releaseDate": "Mar 2019",
-    "status": "Mid-product Cycle"
+    "status": "Approaching End of Cycle"
   },
   "iMac Pro": {
-    "advice": "Neutral",
+    "advice": "Caution",
     "average": "",
-    "daysSinceLastRelease": "600",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_imac_pro_large_2x.png",
+    "daysSinceLastRelease": "714",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/product_imac_pro_large_2x_trans.png",
     "name": "iMac Pro",
     "releaseDate": "Dec 2017",
-    "status": "Mid-product Cycle"
+    "status": "Approaching End of Cycle"
   },
   "iPad": {
-    "advice": "Don't Buy",
-    "average": "583",
-    "daysSinceLastRelease": "497",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_low_large_2x.jpg",
+    "advice": "Buy Now",
+    "average": "575",
+    "daysSinceLastRelease": "79",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_buyers_240.png",
     "name": "iPad",
-    "releaseDate": "Mar 2018",
-    "status": "Updates Soon"
+    "releaseDate": "Sep 2019",
+    "status": "Just Updated"
   },
   "iPad Air": {
-    "advice": "Buy Now",
+    "advice": "Neutral",
     "average": "654",
-    "daysSinceLastRelease": "141",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_air_242.jpg",
+    "daysSinceLastRelease": "255",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_air_242_trans.png",
     "name": "iPad Air",
     "releaseDate": "Mar 2019",
-    "status": "Just Updated"
+    "status": "Mid-product Cycle"
   },
   "iPad Mini": {
     "advice": "Neutral",
-    "average": "390",
-    "daysSinceLastRelease": "141",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_mini_250.jpg",
+    "average": "467",
+    "daysSinceLastRelease": "255",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/ipad_mini_250_trans.png",
     "name": "iPad Mini",
     "releaseDate": "Mar 2019",
     "status": "Mid-product Cycle"
   },
-  "iPhone XR": {
-    "advice": "Caution",
-    "average": "370",
-    "daysSinceLastRelease": "291",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/iphone_XR_buyers_280.png",
-    "name": "iPhone XR",
-    "releaseDate": "Oct 2018",
-    "status": "Approaching End of Cycle"
+  "iPhone 11": {
+    "advice": "Buy Now",
+    "average": "364",
+    "daysSinceLastRelease": "76",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/iphone_11_buyers_304.png",
+    "name": "iPhone 11",
+    "releaseDate": "Sep 2019",
+    "status": "Just Updated"
   },
-  "iPhone XS": {
-    "advice": "Don't Buy",
-    "average": "322",
-    "daysSinceLastRelease": "326",
-    "image": "https://cdn.macrumors.com/images-new/buyers-products/iphone_XS_buyers_280.png",
-    "name": "iPhone XS",
-    "releaseDate": "Sep 2018",
-    "status": "Updates Soon"
+  "iPhone 11 Pro": {
+    "advice": "Buy Now",
+    "average": "343",
+    "daysSinceLastRelease": "76",
+    "image": "https://cdn.macrumors.com/images-new/buyers-products/iphone_11_pro_buyers_304.png",
+    "name": "iPhone 11 Pro",
+    "releaseDate": "Sep 2019",
+    "status": "Just Updated"
   },
   "iPod Touch": {
-    "advice": "Buy Now",
+    "advice": "Neutral",
     "average": "404",
-    "daysSinceLastRelease": "70",
+    "daysSinceLastRelease": "184",
     "image": "https://cdn.macrumors.com/images-new/touch2015.png",
     "name": "iPod Touch",
     "releaseDate": "May 2019",
-    "status": "Just Updated"
+    "status": "Mid-product Cycle"
   }
 }
